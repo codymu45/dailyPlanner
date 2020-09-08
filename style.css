@@ -1,0 +1,59 @@
+body{
+    background-color: gray;
+    font-family: sans-serif;
+}
+
+header{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+table{
+    width: 100%;
+    margin: auto;
+}
+
+tr{
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+}
+
+table, th, td {
+    border: solid black;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+.time{
+    width: 10%;
+    padding: 10px;
+}
+
+.event{
+    width: 80%;
+    padding: 10px;
+}
+
+.saveBtn{
+    padding: 10px;
+}
+
+input{
+    font-size: 30px;
+    outline: 0px solid transparent;
+    border: none;
+    padding: 22px;
+    width: 94.99%;
+    text-align: left;
+    font-weight: bold;
+}
